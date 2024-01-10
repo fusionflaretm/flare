@@ -4,7 +4,7 @@ import Link from "@components/ui/link.astro";
 
 const { plan } = Astro.props;
 ---
-
+<!--
 <div class="rounded-md p-8 xl:p-10 ring-1 ring-gray-200 dark:bg-stone-950 dark:ring-gray-700">
 	<div class="flex items-center justify-between gap-x-4">
 		<h3 id="tier-enterprise" class="text-lg font-semibold leading-8 text-gray-900 dark:text-white">{plan.name}</h3>
@@ -31,4 +31,22 @@ const { plan } = Astro.props;
 			))
 		}
 	</ul>
+</div>-->
+<div class="relative flex w-80 flex-col rounded-xl bg-gray-800 bg-clip-border text-white shadow-md">
+	<div class="flex items-center justify-between gap-x-4 mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-[#fbcc24] bg-clip-border text-white shadow-lg shadow-amber-400/40 bg-gradient-to-r from-amber-400 to-[#ff6100] hover:-translate-y-3 duration-500">
+	</div>
+	<div class="p-6">
+		<h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+			Project card
+		</h5>
+		<p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis ligula.
+		</p>
+	</div>
+	<div class="p-6 pt-0">
+		<button data-ripple-light="true" type="button" class="select-none rounded-lg bg-[#ff6100] py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-amber-400/20 transition-all hover:shadow-lg hover:shadow-amber-400/40 focus:opacity-[0.85] duration-500 focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+			Explore !
+		</button>
+	</div>
 </div>
+
