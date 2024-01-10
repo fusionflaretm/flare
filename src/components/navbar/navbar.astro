@@ -4,24 +4,28 @@ import Button from "@components/ui/button.astro";
 import { Icon } from "astro-icon";
 import { localizePath } from "astro-i18next";
 import { t } from "i18next";
+import ThemeSelector from "../themeselector.astro";
+import LanguageSelector from "../languageselector.astro";
+
 
 export const menuitems = [
 	{
-		title: "Sub items",
-		children: [
+		title: "Home",
+		path: "/",
+		/*children: [
 			{ title: "Subitem 1", path: "#" },
 			{ title: "Subitem 2", path: "#" },
 			{ title: "Subitem 3", path: "#" },
-		],
+		],*/
 	},
 	{
-		title: "header.pricing",
+		title: "Project's",
 		path: "/pricing",
 	},
-	{
+	/*{
 		title: "header.blog",
 		path: "/blog",
-	},
+	},*/
 	{
 		title: "header.contact",
 		path: "/contact",
@@ -35,9 +39,9 @@ export const menuitems = [
 	<div class="p-4 flex flex-row items-center justify-between">
 		<a
 			href={localizePath("/")}
-			class="flex gap-3 items-center text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark:text-white focus:outline-none focus:shadow-outline">
-			<Icon name="logo" width="30" class="dark:invert" alt="Logo" />
-			 Astros
+			class="flex gap-0 items-center text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark:text-white focus:outline-none focus:shadow-outline">
+			<Icon name="logo" width="60" class="dark:invert m-auto" alt="Logo" />
+			 usion Flare
 		</a>
 		<button class="md:hidden text-gray-500 w-10 h-10 relative focus:outline-none" @click="open = !open">
 			<span class="sr-only">Open main menu</span>
@@ -150,12 +154,18 @@ export const menuitems = [
 			}
 		</div>
 		<div class="mt-4 md:mt-0 flex flex-col md:flex-row gap-4">
-			<Link href="/login" style="outline" class="md:px-3 md:py-2 leading-6">
+			<!--<Link href="/login" style="outline" class="md:px-3 md:py-2 leading-6">
 				{t("header.secondary_button_text")}
-			</Link>
-			<Link href="https://github.com/zankhq/astros" class="md:px-3 md:py-2 leading-6">
+			</Link>-->
+			<LanguageSelector
+				showFlag={false}
+				languageMapping={{ en: "English", it: "Italiano" }}
+				class="appearance-none py-1 px-2 rounded bg-slate-100 dark:bg-stone-950"
+			/>
+			<!--<Link href="https://github.com/zankhq/astros" class="md:px-3 md:py-2 leading-6">
 				{t("header.primary_button_text")}
-			</Link>
+			</Link>-->
+			<ThemeSelector />
 		</div>
 	</nav>
 </div>

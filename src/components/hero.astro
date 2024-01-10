@@ -72,14 +72,21 @@ const { dynamic = false } = Astro.props;
 							<Cobe />
 						</>
 					) : (
-						<Image
+						<!--<Image
 							class="inline-block mt-12 md:mt-20"
 							src={abstractDottedGlobeIllustration}
 							alt="Astros"
 							width={600}
 							height={600}
 							loading="eager"
-						/>
+						/>-->
+						<script src="https://cdn.lordicon.com/lordicon.js"></script>
+						<lord-icon
+							src="https://cdn.lordicon.com/uecgmesg.json"
+							trigger="loop"
+							colors="primary:#545454,secondary:#eee966"
+							style="width:400px;height:400px">
+						</lord-icon>
 					)
 				}
 			</div>

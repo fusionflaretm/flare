@@ -28,8 +28,8 @@ export default defineConfig({
 			includeAssets: ["favicon.svg"],
 			registerType: "autoUpdate",
 			manifest: {
-				name: "Astros - Starter Template for Astro with Tailwind CSS",
-				short_name: "Astros",
+				name: "Fusion Flare",
+				short_name: "Fusion Flare",
 				theme_color: "#ffffff",
 				icons: [
 					{
