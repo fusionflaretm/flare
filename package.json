@@ -3,6 +3,9 @@
 	"type": "module",
 	"version": "1.0.1",
 	"private": true,
+	"engines": {
+  		"pnpm": ">=7.0.0"
+	},
 	"scripts": {
 		"dev": "astro dev --host",
 		"start": "astro dev",
