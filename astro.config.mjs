@@ -10,7 +10,7 @@ import AstroPWA from "@vite-pwa/astro";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://astros.zank.studio",
+	site: "https://fusionflaretm.github.io/",
 	vite: {
 		define: {
 			__DATE__: `'${new Date().toISOString()}'`,
@@ -23,7 +23,7 @@ export default defineConfig({
 		alpinejs(),
 		AstroPWA({
 			mode: "production",
-			base: "/",
+			base: "/flare",
 			scope: "/",
 			includeAssets: ["favicon.svg"],
 			registerType: "autoUpdate",
