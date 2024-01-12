@@ -1,19 +1,19 @@
 {
 	"hero": {
-		"title": "Sviluppo web potenziato!",
-		"subtitle": "Liberare il Potere del Web: Combina Astro, Tailwind CSS e Alpine.js per Semplificare il Tuo Processo di Sviluppo Web.",
+		"title": "Supercharge seu Desenvolvimento Empresarial!",
+		"subtitle": "Potencialize a sua Presença Digital com um Design Inovador e Soluções Robustas.",
 		"globe_title": "Crea Siti Web Sorprendenti ad Alte Prestazioni con Facilità e Velocità.",
-		"main_button_text": "Scarica su github",
-		"secondary_button_text": "Vai a versione animata"
+		"main_button_text": "Ir para Projetos",
+		"secondary_button_text": "Começar"
 	},
 	"hero_animated": {
 		"secondary_button_text": "Vai a versione base"
 	},
 	"header": {
 		"features": "Funzionalità",
-		"pricing": "Prezzi",
+		"Projects": "Projetos",
 		"blog": "Blog",
-		"contact": "Contatti",
+		"contact": "Contatos",
 		"primary_button_text": "Scarica",
 		"secondary_button_text": "Login"
 	},

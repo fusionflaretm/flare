@@ -22,7 +22,7 @@ const buildDate = __DATE__;
 
 const { title, lang = null } = Astro.props;
 
-const makeTitle = title ? title + " | " + "Astros" : "Astros - Starter Template for Astro with Tailwind CSS";
+const makeTitle = title ? title + " | " + "Fusion Flare" : "Fusion Flare - Empowering The Digital Presence";
 ---
 
 <!doctype html>
@@ -30,7 +30,7 @@ const makeTitle = title ? title + " | " + "Astros" : "Astros - Starter Template 
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/flare/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="theme-color" content="#ffffff" />
 		<HeadHrefLangs />
@@ -38,17 +38,17 @@ const makeTitle = title ? title + " | " + "Astros" : "Astros - Starter Template 
 		<ViewTransitions />
 
 		<!-- Global CSS -->
-		<link rel="stylesheet" href="/index.css" />
+		<link rel="stylesheet" href="/flare/index.css" />
 
 		<SEO
 			title={makeTitle}
-			description="Astros is a starter website template for Astro built with TailwindCSS and alpine js."
+			description="Empowering The Digital Presence."
 			canonical={canonicalURL}
 			openGraph={{
 				basic: {
 					url: canonicalURL,
 					type: "website",
-					title: `Astros - Starter Template for Astro`,
+					title: `Fusion Flare`,
 					image: resolvedImageWithDomain,
 				},
 				image: {
