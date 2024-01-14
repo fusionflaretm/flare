@@ -55,10 +55,10 @@ let contacts = [
 							<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Departments</h2>
 							<p class="mt-4 leading-7 text-gray-600 dark:text-gray-200">Reach Out to Our Dedicated Teams.</p>
 						</div>
-						<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
+						<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8 ">
 							{
 								contacts.map((item) => (
-									<div class="rounded-2xl bg-gray-50 dark:bg-stone-800 p-10">
+									<div class="rounded-2xl bg-gray-50 dark:bg-stone-800 p-10 transition ease-in-out delay-150 cursor-pointer hover:-translate-y-1 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500  duration-150">
 										<h3 class="text-base font-semibold leading-7 text-gray-900 dark:text-white">{item.title}</h3>
 										<dl class="mt-3 space-y-1 text-sm leading-6 text-gray-600 dark:text-white">
 											<div>
