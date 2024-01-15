@@ -4,20 +4,20 @@ import { t } from "i18next";
 
 const faqs = [
 	{
-		title: "What is this?",
-		description: "This is a use of tailwindcss and alpinejs",
+		title: "Where should I be located to work with Fusion Flare?",
+		description: "You can be located (almost) anywhere on the planet.",
 	},
 	{
-		title: "Why alpinejs? Why don't just use js?",
-		description: "Alpine js is less than 17kb and it make javascript very fast to write, there are also various open source ready to use components like https://js.hyperui.dev, https://www.alpinetoolbox.com/examples, https://alpinejs.dev/components#components",
+		title: "Does Fusion Flare charge me to receive a proposal?",
+		description: "No! Our proposals are always free. However, proposals do have a 1-month expiration, so your project cost might need to be reevaluated if committing after the proposal expires.",
 	},
 	{
-		title: "What is Lorem Ipsum??",
-		description: "From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."
+		title: "How does Fusion Flare communicate with clients? How do I communicate with Fusion Flare??",
+		description: "We believe that effective communication is essential for business success. Each project has a communication plan. Some projects will require weekly or bi-weekly meetings, while many others may only require meetings in between milestones. We prefer to communicate in the most straightforward and efficient manner for the respective purpose. As such, for project related meetings, we generally use video-conferencing with Google Meet, Jitsi, or Zoom. All other general communication can be conducted by phone, email, or even in-person if the client's location allows it."
 	},
 	{
-		title: "What is Lorem Ipsum??",
-		description: "From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."
+		title: "Can you give me a fixed-price quote?",
+		description: "Yes, this is our preferred method of billing and budgeting. We collaborate with you to establish a clear project scope before providing you with a fixed-price estimate to complete the work. Once the scope is established, you can rely on us to produce exactly what has been ordered, at the exact price. There are no hidden fees or costs, and everything is straightforward and plain. "
 	},
 	/*{
 		title: "I don't need multiple language, how can I remove it?",
@@ -31,16 +31,16 @@ const faqs = [
 					</ul>`
 	},*/
 	{
-		title: "What is Lorem Ipsum??",
-		description: "From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."
+		title: "Will my website be responsive? Will they work on mobile devices?",
+		description: "Yes, all of our websites are built to be responsive. The only exceptions are special cases (things like art installations, interactive experiences, digital signage) where something is being built for a specific device."
 	},
 	{
-		title: "What is Lorem Ipsum??",
-		description: "From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."
+		title: "Do you employ the use of templates?",
+		description: "No, we custom design websites from A to Z, based on the customer’s needs and goals for each project."
 	},
 	{
-		title: "What is Lorem Ipsum??",
-		description: "From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."
+		title: "How much does a website cost??",
+		description: "Just contact us! We can give you a rough idea based on your needs, or a free proposal with more accurate pricing, once you’re ready for that."
 	},
 	/*{
 		title: "How can I change the localization languages?",
@@ -48,19 +48,20 @@ const faqs = [
 					Then change the locales files folders in <code>public/locales</code>`,
 	},*/
 	{
-		title: "What is Lorem Ipsum??",
-		description: "From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."
+		title: "Is Fusion Flare currently hiring new team members?",
+		description: "Yes, we are constantly on the lookout for rare gems to join our team. Send us your application, resume/CV, and portfolio by email: Fusionflare.tech@gmail.com. "
 	},
 	{
-		title: "What is Lorem Ipsum??",
-		description: "From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."
+		title: "I have a question that isn’t listed here",
+		description: "Please let us hear it: Fusionflare.tech@gmail.com"
 	}
 ];
 ---
 
 <div class="mx-auto max-w-5xl px-6 py-24 sm:py-36 lg:px-8 lg:py-52 dark:bg-stone-950">
-	<div class="mx-auto divide-y divide-gray-900/10 dark:divide-gray-100/10">
-		<h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900 dark:text-white">{t("faq.title")}</h2>
+	<div class="mx-auto divide-y divide-gray-900/10 dark:divide-gray-100/10 duration-150">
+
+		<h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900 dark:text-white">❓{t("faq.title")}</h2>
 		<dl class="mt-10 space-y-6 divide-y divide-gray-900/10 dark:divide-gray-100/10">
 			{
 				faqs.map((faq) => (
