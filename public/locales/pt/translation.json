@@ -1,0 +1,55 @@
+{
+	"hero": {
+		"title": "Supercharge seu Desenvolvimento Empresarial!",
+		"subtitle": "Potencialize a sua Presença Digital com um Design Inovador e Soluções Robustas.",
+		"globe_title": "Crea Siti Web Sorprendenti ad Alte Prestazioni con Facilità e Velocità.",
+		"main_button_text": "Ir para Projetos",
+		"secondary_button_text": "Começar"
+	},
+	"hero_animated": {
+		"secondary_button_text": "Vai a versione base"
+	},
+	"header": {
+		"home": "Casa",
+		"features": "Funzionalità",
+		"Projects": "Projetos",
+		"blog": "Blog",
+		"contact": "Contatos",
+		"primary_button_text": "Scarica",
+		"secondary_button_text": "Login"
+	},
+	"about": {
+		"title": "Onde a criatividade encontra a funcionalidade.",
+		"subtitle": "A Fusion Flare é uma equipe de talentosos designers web, desenvolvedores e profissionais de marketing que se especializam na criação e manutenção de sites de alto desempenho e fáceis de usar, que convertem visitantes em clientes.",
+		"description": "Na Fusion Flare, estamos comprometidos em oferecer soluções personalizadas que atendam às suas necessidades específicas e superem suas expectativas. Nossa equipe de especialistas trabalha em estreita colaboração com você para compreender seus objetivos e criar um site que não apenas tenha um ótimo visual, mas também gere resultados. Com nossa experiência em design web e marketing, ajudamos você a maximizar sua presença online e atrair mais clientes para o seu negócio."
+	},
+	"services": {
+		"branding": "Branding e Estratégia",
+		"b_desc": "Every web design project at Brand Vision is unique and treated with the utmost care. Our team of award-winning web designers and web developers have a knack for creating visually stunning websites that are also functional and effective at achieving their goals. Whether you need a simple informational website or a complex e-commerce platform, we have the expertise to bring your brand's online presence to life. Let us help you create the perfect online presentation for your business.",
+		"web": "Design e Desenvolvimento Web",
+		"w_desc": "Brand Vision can help your brand truly succeed in today's digital world by creating a strong brand identity and a creative visual design.\n\t\t\t\t\tOur goal is to help your company achieve consistency, memorability, and credibility, and attract your target audience in the most effective way possible. We consider the psychology of branding in your target market while also considering a unique design perspective.  Our award-winning branding and design team has facilitated the success of our projects with their extensive industry knowledge and experience.",
+		"analysis": "Análise e Resumo",
+		"a_desc": "Every web design project at Brand Vision is unique and treated with the utmost care. Our team of award-winning web designers and web developers have a knack for creating visually stunning websites that are also functional and effective at achieving their goals. Whether you need a simple informational website or a complex e-commerce platform, we have the expertise to bring your brand's online presence to life. Let us help you create the perfect online presentation for your business."
+	},
+	"cta": {
+		"title": "Comece com a sua visão",
+		"sub": "Encontre seu próximo futuro",
+		"btn_pro": "Obtenha sua Proposta",
+		"btn_call": "Agende uma Chamada"
+	},
+	"faq": {
+		"title": "Domande frequenti"
+	},
+	"newsletter": {
+		"title": "Sottoscriviti alla nostra newsletter",
+		"subtitle": "Ricevi le notifiche per gli ultimi aggiornamenti e novità.",
+		"input_placeholder": "Inserisci la tua email",
+		"button_text": "Sottoscriviti",
+		"privacy": "Ci importa della tua privacy. Leggi la nostra",
+		"privacy_link": "Privacy Policy."
+	},
+	"blog": {
+		"prev": "Precedente",
+		"next": "Successiva"
+	}
+}

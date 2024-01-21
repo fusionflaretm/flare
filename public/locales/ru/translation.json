@@ -1,0 +1,55 @@
+{
+	"hero": {
+		"title": "Зарядите ваше развитие бизнеса!",
+		"subtitle": "Повышение вашего цифрового присутствия с инновационным дизайном и надежными решениями.",
+		"globe_title": "Создавайте потрясающие высокопроизводительные веб-сайты легко и быстро.",
+		"main_button_text": "Перейти к проектам",
+		"secondary_button_text": "Начать"
+	},
+	"hero_animated": {
+		"secondary_button_text": "Go to Projects"
+	},
+	"header": {
+		"home": "Домой",
+		"features": "Features",
+		"Projects": "Projects",
+		"blog": "Blog",
+		"contact": "Контакты",
+		"primary_button_text": "Download",
+		"secondary_button_text": "Login"
+	},
+	"about": {
+		"title": "Там, где встречаются креатив и функциональность.",
+		"subtitle": "Fusion Flare - команда талантливых веб-дизайнеров, разработчиков и маркетологов, специализирующихся на создании и поддержке высокопроизводительных, удобных для пользователя веб-сайтов, превращающих посетителей в клиентов.",
+		"description": "В Fusion Flare мы стремимся предоставить индивидуальные решения, соответствующие вашим конкретным потребностям и превосходящие ваши ожидания. Наша команда экспертов тесно сотрудничает с вами, чтобы понять ваши цели и создать сайт, который не только выглядит отлично, но и приносит результаты. Благодаря нашему опыту в дизайне веб-сайтов и маркетинге мы помогаем вам максимизировать ваше онлайн-присутствие и привлекать больше клиентов в ваш бизнес."
+	},
+	"services": {
+		"branding": "Брендинг и стратегия",
+		"b_desc": "Every web design project at Brand Vision is unique and treated with the utmost care. Our team of award-winning web designers and web developers have a knack for creating visually stunning websites that are also functional and effective at achieving their goals. Whether you need a simple informational website or a complex e-commerce platform, we have the expertise to bring your brand's online presence to life. Let us help you create the perfect online presentation for your business.",
+		"web": "Веб-дизайн и разработка",
+		"w_desc": "Brand Vision can help your brand truly succeed in today's digital world by creating a strong brand identity and a creative visual design.\n\t\t\t\t\tOur goal is to help your company achieve consistency, memorability, and credibility, and attract your target audience in the most effective way possible. We consider the psychology of branding in your target market while also considering a unique design perspective.  Our award-winning branding and design team has facilitated the success of our projects with their extensive industry knowledge and experience.",
+		"analysis": "Анализ и суммирование",
+		"a_desc": "Every web design project at Brand Vision is unique and treated with the utmost care. Our team of award-winning web designers and web developers have a knack for creating visually stunning websites that are also functional and effective at achieving their goals. Whether you need a simple informational website or a complex e-commerce platform, we have the expertise to bring your brand's online presence to life. Let us help you create the perfect online presentation for your business."
+	},
+	"cta": {
+		"title": "Начните с вашей визии",
+		"sub": "Найдите ваше следующее будущее",
+		"btn_pro": "Получите ваше предложение",
+		"btn_call": "Забронируйте звонок"
+	},
+	"faq": {
+		"title": "Часто задаваемые вопросы"
+	},
+	"newsletter": {
+		"title": "Подпишитесь на нашу рассылку",
+		"subtitle": "Получайте уведомления обо всех обновлениях.",
+		"input_placeholder": "Введите ваш email",
+		"button_text": "Подписаться",
+		"privacy": "We care about the protection of your data. Read our",
+		"privacy_link": "Privacy Policy."
+	},
+	"blog": {
+		"prev": "Prev",
+		"next": "Next"
+	}
+}

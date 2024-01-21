@@ -1,19 +1,23 @@
 ---
 import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
-import Features from "@components/features.astro";
 import Faq from "@components/faq.astro";
 import Hero from "@components/hero.astro";
 import Newsletter from "@components/newsletter.astro";
 import Layout from "@layouts/Layout.astro";
+import CTA from "@components/cta.astro"
+import Services from "../../components/services.astro";
+import Testimonials from "../../components/testimonials.astro";
 
-changeLanguage("it");
+changeLanguage("pt");
 ---
 
 <Layout>
 	<Container>
 		<Hero />
-		<Features />
+		<Testimonials/>
+		<Services/>
+		<CTA/>
 		<Faq />
 		<Newsletter />
 	</Container>

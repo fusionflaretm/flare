@@ -1,4 +1,6 @@
 ---
+const { plan } = Astro.props;
+import { t } from "i18next";
 ---
 <br/>
 <br/>
@@ -56,13 +58,13 @@
 							<h2
 								class="mb-5 text-3xl font-bold bg-gradient-to-r from-[#003049] via-[#EAE2B7] to-[#003049] inline-block text-transparent bg-clip-text  sm:text-[40px]/[48px]"
 							>
-								Where creativity meets functionality.
+								{t("about.title")}
 							</h2>
 							<p class="mb-5 text-base text-[#003049] dark:text-[#e5e5e5]">
-								Fusion Flare is a team of talented web designers, developers, and marketing professionals who specialize in creating and maintaining high-performing, user-friendly websites that convert visitors into customers.
+								{t("about.subtitle")}
 							</p>
 							<p class="mb-8 text-base text-[#003049] dark:text-[#e5e5e5]">
-								At Fusion Flare, we are committed to delivering tailored solutions that meet your specific needs and exceed your expectations. Our team of experts works closely with you to understand your goals and create a website that not only looks great but also drives results. With our expertise in both web design and marketing, we help you maximize your online presence and attract more customers to your business.
+								{t("about.description")}
 							</p>
 							<!--<a
 								href="javascript:void(0)"

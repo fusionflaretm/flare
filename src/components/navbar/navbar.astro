@@ -10,7 +10,7 @@ import LanguageSelector from "../languageselector.astro";
 
 export const menuitems = [
 	{
-		title: "Home",
+		title: "header.home",
 		path: "/",
 		/*children: [
 			{ title: "Subitem 1", path: "#" },
@@ -158,8 +158,8 @@ export const menuitems = [
 				{t("header.secondary_button_text")}
 			</Link>-->
 			<LanguageSelector
-				showFlag={false}
-				languageMapping={{ en: "🇺🇸 English", it: "🇵🇹 Portuguese" }}
+				showFlag={true}
+				languageMapping={{ en: "English", pt: "Portuguese", de: "German", ru: "Russian" }}
 				class="appearance-none py-1 px-2 rounded bg-slate-100 dark:bg-stone-950"
 			/>
 			<!--<Link href="https://github.com/zankhq/astros" class="md:px-3 md:py-2 leading-6">

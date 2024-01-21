@@ -1,4 +1,6 @@
 ---
+const { plan } = Astro.props;
+import { t } from "i18next";
 ---
 <br/>
 <br/>
@@ -10,30 +12,10 @@
 			<div>
 				<h2 class="mb-4 text-2xl  font-extrabold tracking-tight text-center text-black md:leading-tight sm:text-left md:text-4xl cursor-pointer bg-gradient-to-r bg-gradient-to-br from-[#003049] to-[#EAE2B7] inline-block text-transparent bg-clip-text">
 					<svg stroke="currentColor" fill="none" stroke-width="1.8" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="50px" width="50px" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M13 15.5v-6.5a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v4m0 6a1 1 0 0 1 -1 1"></path><path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h7"></path><path d="M20 21l2 -2l-2 -2"></path><path d="M17 17l-2 2l2 2"></path><path d="M16 9h2"></path></svg>
-					Branding & Strategy</h2>
+					{t("services.branding")}</h2>
 				<p class="mb-5 text-base text-center text-justify text-[#003049] sm:text-left md:text-lg dark:text-[#e5e5e5]">
-					Every web design project at Brand Vision is unique and treated with the utmost care. Our team of award-winning web designers and web developers have a knack for creating visually stunning websites that are also functional and effective at achieving their goals. Whether you need a simple informational website or a complex e-commerce platform, we have the expertise to bring your brand's online presence to life. Let us help you create the perfect online presentation for your business.
+					{t("services.b_desc")}
 				</p>
-				<!--<a href="#" class="w-full btn btn-dark btn-lg sm:w-auto">Learn More</a>-->
-				<!--<button
-					class="overflow-hidden relative w-32 p-2 h-12 dark:bg-red-200 bg-black text-white border-none rounded-2xl text-xl font-bold cursor-pointer relative z-10 group"
-				>
-					Hover me!
-					<span
-						class="absolute w-36 h-32 -top-8 -left-2 bg-red-400 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-bottom"
-					></span>
-					<span
-						class="absolute w-36 h-32 -top-8 -left-2 bg-white rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-bottom"
-					></span>
-					<span
-						class="absolute w-36 h-32 -top-8 -left-2 bg-red-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-bottom"
-					></span>
-					<span
-						class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10"
-					>Explore!</span
-					>
-				</button>-->
-
 			</div>
 			<div class="w-full h-full bg-gray-200 rounded-2xl shadow-2xl shadow-[#EAE2B7]">
 				<img
@@ -46,32 +28,11 @@
 		<div class="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
 			<div class="order-none md:order-2">
 				<h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-black md:leading-tight sm:text-left md:text-4xl cursor-pointer bg-gradient-to-r bg-gradient-to-br from-[#EAE2B7] to-[#003049] inline-block text-transparent bg-clip-text">
-					Web Design & Development
+					{t("services.web")}
 				</h2>
 				<p class="mb-5 text-base text-center text-[#003049] sm:text-left md:text-lg text-justify dark:text-[#e5e5e5]">
-					Brand Vision can help your brand truly succeed in today's digital world by creating a strong brand identity and a creative visual design.
-					Our goal is to help your company achieve consistency, memorability, and credibility, and attract your target audience in the most effective way possible. We consider the psychology of branding in your target market while also considering a unique design perspective.  Our award-winning branding and design team has facilitated the success of our projects with their extensive industry knowledge and experience.
+					{t("services.w_desc")}
 				</p>
-				<!--<a href="#" class="w-full btn btn-dark btn-lg sm:w-auto">Learn More</a>-->
-				<!--<button
-					class="overflow-hidden relative w-32 p-2 h-12 dark:bg-white dark:text-black bg-black text-white border-none rounded-2xl text-xl font-bold cursor-pointer relative z-10 group"
-				>
-					Hover me!
-					<span
-						class="absolute w-36 h-32 -top-8 -left-2 bg-sky-200 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-right"
-					></span>
-					<span
-						class="absolute w-36 h-32 -top-8 -left-2 bg-sky-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-right"
-					></span>
-					<span
-						class="absolute w-36 h-32 -top-8 -left-2 bg-sky-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-right"
-					></span>
-					<span
-						class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10"
-					>Explore!</span
-					>
-				</button>-->
-
 			</div>
 			<div class="w-full h-auto bg-gray-200 rounded-2xl shadow-2xl shadow-cyan-500">
 					<img
@@ -88,31 +49,11 @@
 		<br/>
 		<div class="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
 			<div>
-				<h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-black md:leading-tight sm:text-left md:text-4xl cursor-pointer bg-gradient-to-r bg-gradient-to-br from-green-200 to-green-800 inline-block text-transparent bg-clip-text">
-					Analysis & Summery</h2>
+				<h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-black md:leading-tight sm:text-left md:text-4xl cursor-pointer bg-gradient-to-r bg-gradient-to-br from-[#003049] to-[#EAE2B7] inline-block text-transparent bg-clip-text">
+					{t("services.analysis")}</h2>
 				<p class="mb-5 text-base text-center text-justify text-gray-600 sm:text-left md:text-lg dark:text-[#e5e5e5]">
-					Every web design project at Brand Vision is unique and treated with the utmost care. Our team of award-winning web designers and web developers have a knack for creating visually stunning websites that are also functional and effective at achieving their goals. Whether you need a simple informational website or a complex e-commerce platform, we have the expertise to bring your brand's online presence to life. Let us help you create the perfect online presentation for your business.
+					{t("services.a_desc")}
 				</p>
-				<!--<a href="#" class="w-full btn btn-dark btn-lg sm:w-auto">Learn More</a>-->
-				<!--<button
-					class="overflow-hidden relative w-32 p-2 h-12 dark:bg-blue-400 bg-black text-white border-none rounded-2xl text-xl font-bold cursor-pointer relative z-10 group"
-				>
-					Hover me!
-					<span
-						class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
-					></span>
-					<span
-						class="absolute w-36 h-32 -top-8 -left-2 bg-[#14532d] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
-					></span>
-					<span
-						class="absolute w-36 h-32 -top-8 -left-2 bg-[#75d798] rotate-12 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"
-					></span>
-					<span
-						class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10"
-					>Explore!</span
-					>
-				</button>-->
-
 			</div>
 			<div class="m-auto rounded-2xl shadow-2xl dark:shadow-[#374151] shadow-[#dcfce7]">
 
@@ -202,11 +143,11 @@
 					// ApexCharts options and config
 					window.addEventListener("load", function() {
 						const options = {
-							colors: ["#37affb", "#75d798"],
+							colors: ["#003049", "#EAE2B7"],
 							series: [
 								{
 									name: "Organic",
-									color: "#37affb",
+									color: "#003049",
 									data: [
 										{ x: "Mon", y: 231 },
 										{ x: "Tue", y: 122 },
@@ -219,7 +160,7 @@
 								},
 								{
 									name: "Social media",
-									color: "#75d798",
+									color: "#EAE2B7",
 									data: [
 										{ x: "Mon", y: 232 },
 										{ x: "Tue", y: 113 },

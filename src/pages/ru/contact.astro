@@ -7,26 +7,26 @@ import Sectionhead from "@components/sectionhead.astro";
 import Button from "@components/ui/button.astro";
 import Contactform from "@components/contactform.astro";
 
-changeLanguage("en");
+changeLanguage("ru");
 
 let contacts = [
     {
-        title: "Branding",
+        title: "Брендинг",
         email: "branding@fusionflare.io",
         phone: "+351 (933) 651-883",
     },
     {
-        title: "Human Resources",
+        title: "Кадровое дело",
         email: "hr@fusionflare.io",
         phone: "+351 (933) 651-883",
     },
     {
-        title: "Software Engineering",
+        title: "Программная инженерия",
         email: "softwareengineering@fusionflare.io",
         phone: "+351 (937) 893-255",
     },
     {
-        title: "Research and Development",
+        title: "Научно-исследовательская и разработка",
         email: "research@fusionflare.io",
         phone: "+351 (937) 893-255",
     },
@@ -36,8 +36,8 @@ let contacts = [
 <Layout title="Contact">
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Contact</Fragment>
-			<Fragment slot="desc">Get in Touch.</Fragment>
+			<Fragment slot="title">Контакты</Fragment>
+			<Fragment slot="desc">Свяжитесь с нами.</Fragment>
 		</Sectionhead>
 
 		<div class="py-24 sm:py-32">
@@ -52,8 +52,8 @@ let contacts = [
 								colors="primary:#EAE2B7,secondary:#003049"
 								style="width:150px;height:150px">
 							</lord-icon>
-							<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Departments</h2>
-							<p class="mt-4 leading-7 text-gray-600 dark:text-gray-200">Reach Out to Our Dedicated Teams.</p>
+							<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Департаменты</h2>
+							<p class="mt-4 leading-7 text-gray-600 dark:text-gray-200">Обращайтесь к нашим выделенным командам.</p>
 						</div>
 						<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8 ">
 							{
@@ -70,7 +70,7 @@ let contacts = [
 												</dd>
 											</div>
 											<div class="mt-1">
-												<dt class="sr-only">Phone number</dt>
+												<dt class="sr-only">Telefonnummer</dt>
 												<dd>{item.phone}</dd>
 											</div>
 										</dl>
