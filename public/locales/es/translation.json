@@ -1,50 +1,50 @@
 {
 	"hero": {
-		"title": "Supercharge your Business development!",
-		"subtitle": "Empowering Your Digital Presence with Innovative Design and Robust Solutions",
-		"globe_title": "Craft Stunning, High-Performance Websites with Ease and Speed",
-		"main_button_text": "Go to Projects",
-		"secondary_button_text": "Get Started"
+		"title": "Potencia el desarrollo de tu negocio!",
+		"subtitle": "Potenciando tu presencia digital con diseño innovador y soluciones robustas.",
+		"globe_title": "Crea impresionantes sitios web de alto rendimiento con facilidad y rapidez.",
+		"main_button_text": "Ir a Proyectos",
+		"secondary_button_text": "Comenzar"
 	},
 	"hero_animated": {
 		"secondary_button_text": "Go to Projects"
 	},
 	"header": {
-		"home": "Home",
+		"home": "Inicio",
 		"features": "Features",
 		"Projects": "Projects",
 		"blog": "Blog",
-		"contact": "Contacts",
+		"contact": "Contactos",
 		"primary_button_text": "Download",
 		"secondary_button_text": "Login"
 	},
 	"about": {
-		"title": "Where creativity meets functionality.",
-		"subtitle": "Fusion Flare is a team of talented web designers, developers, and marketing professionals who specialize in creating and maintaining high-performing, user-friendly websites that convert visitors into customers.",
-		"description": "At Fusion Flare, we are committed to delivering tailored solutions that meet your specific needs and exceed your expectations. Our team of experts works closely with you to understand your goals and create a website that not only looks great but also drives results. With our expertise in both web design and marketing, we help you maximize your online presence and attract more customers to your business."
+		"title": "Donde la creatividad se encuentra con la funcionalidad.",
+		"subtitle": "Fusion Flare es un equipo de talentosos diseñadores web, desarrolladores y profesionales de marketing especializados en la creación y mantenimiento de sitios web de alto rendimiento y fáciles de usar que convierten a los visitantes en clientes.",
+		"description": "En Fusion Flare, nos comprometemos a ofrecer soluciones personalizadas que satisfacen tus necesidades específicas y superan tus expectativas. Nuestro equipo de expertos trabaja estrechamente contigo para entender tus objetivos y crear un sitio web que no solo luzca genial, sino que también genere resultados. Con nuestra experiencia tanto en diseño web como en marketing, te ayudamos a maximizar tu presencia en línea y atraer más clientes a tu negocio."
 	},
 	"services": {
-		"branding": "Branding & Strategy",
+		"branding": "Branding y Estrategia",
 		"b_desc": "Every web design project at Brand Vision is unique and treated with the utmost care. Our team of award-winning web designers and web developers have a knack for creating visually stunning websites that are also functional and effective at achieving their goals. Whether you need a simple informational website or a complex e-commerce platform, we have the expertise to bring your brand's online presence to life. Let us help you create the perfect online presentation for your business.",
-		"web": "Web Design & Development",
+		"web": "Diseño y Desarrollo Web",
 		"w_desc": "Brand Vision can help your brand truly succeed in today's digital world by creating a strong brand identity and a creative visual design.\n\t\t\t\t\tOur goal is to help your company achieve consistency, memorability, and credibility, and attract your target audience in the most effective way possible. We consider the psychology of branding in your target market while also considering a unique design perspective.  Our award-winning branding and design team has facilitated the success of our projects with their extensive industry knowledge and experience.",
-		"analysis": "Analysis & Summery",
+		"analysis": "Análisis y Resumen",
 		"a_desc": "Every web design project at Brand Vision is unique and treated with the utmost care. Our team of award-winning web designers and web developers have a knack for creating visually stunning websites that are also functional and effective at achieving their goals. Whether you need a simple informational website or a complex e-commerce platform, we have the expertise to bring your brand's online presence to life. Let us help you create the perfect online presentation for your business."
 	},
 	"cta": {
-		"title": "Get started with your Vision",
-		"sub": "Find Your Next Future",
-		"btn_pro": "Get your Proposal",
-		"btn_call": "Book a Call"
+		"title": "Comienza con tu Visión",
+		"sub": "Encuentra tu próximo futuro",
+		"btn_pro": "Obtén tu Propuesta",
+		"btn_call": "Reserva una Llamada"
 	},
 	"faq": {
-		"title": "Frequently Asked Questions"
+		"title": "Preguntas Frecuentes"
 	},
 	"newsletter": {
-		"title": "Subscribe to our newsletter",
-		"subtitle": "Get notified for all updates",
-		"input_placeholder": "Enter your email",
-		"button_text": "Subscribe",
+		"title": "Suscríbete a nuestro boletín",
+		"subtitle": "Recibe notificaciones de todas las actualizaciones",
+		"input_placeholder": "Ingresa tu correo electrónico",
+		"button_text": "Suscríbete",
 		"privacy": "We care about the protection of your data. Read our",
 		"privacy_link": "Privacy Policy."
 	},
