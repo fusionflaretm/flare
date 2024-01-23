@@ -10,8 +10,8 @@ import AstroPWA from "@vite-pwa/astro";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://fusionflaretm.github.io/",
-	base: "/flare",
+	site: "https://fusionflare.io/",
+	base: "/",
 	vite: {
 		define: {
 			__DATE__: `'${new Date().toISOString()}'`,
